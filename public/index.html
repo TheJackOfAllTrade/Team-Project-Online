@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Clicker</title>
+  </head>
+
+  <body>
+    <div class="SettingsModal" id="Modal">
+      <div class="SettingsContent">
+        <span class="close">&times;</span>
+        <p style="font-size: 40px">Settigns Menu</p>
+        <label for="SoundEffectsCheckbox" class="SoundEffectsSwitch"
+          >Sound Effects ON/OFF</label
+        >
+        <input id="SoundEffectsCheckbox" type="checkbox" checked />
+        <br />
+        <label for="LevelUpAlert" class="SoundEffectsSwitch"
+          >Level Up Alert ON/OFF</label
+        >
+        <input id="LevelUpAlert" type="checkbox" checked />
+      </div>
+    </div>
+    <div class="gridContainer">
+      <div>
+        <h1>Information Tab</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <a href="http://localhost:3000/login.html">
+          Login Page - Temporary to test
+        </a>
+      </div>
+      <div>
+        <div class="center">
+          <h1 name="currency">$ 0</h1>
+          <h2 name="income">$ 0/s</h2>
+          <div class="button">
+            <button name="clickerButton"><b>Distill</b></button>
+          </div>
+        </div>
+      </div>
+      <div class="upgradeDiv">
+        <div>
+          <img class="upgradeImage" src="images/beer(1).png" alt="Test Image" />
+        </div>
+        <div>
+          <button class="upgradeButton" name="upgrade1">
+            <p>
+              <b class="upgradeName">Upgrade 1</b><br />
+              <i>Cost: $</i><i class="upgradeCost">10</i><br />
+              <i><b>Income: $</b></i
+              ><i class="upgradeIncome"><b>10</b></i
+              ><i><b>/s</b></i>
+            </p>
+          </button>
+        </div>
+        <div>
+          <img class="upgradeImage" src="images/beer.png" alt="Test Image" />
+        </div>
+        <div>
+          <button class="upgradeButton" name="upgrade2">
+            <b class="upgradeName">Upgrade 2</b><br />
+            <i>Cost: $</i><i class="upgradeCost">100</i><br />
+            <i><b>Income: $</b></i
+            ><i class="upgradeIncome"><b>100</b></i
+            ><i><b>/s</b></i>
+          </button>
+        </div>
+        <div>
+          <img
+            class="upgradeImage"
+            src="images/cocktail(1).png"
+            alt="Test Image"
+          />
+        </div>
+        <div>
+          <button class="upgradeButton" name="upgrade3">
+            <b class="upgradeName">Upgrade 3</b><br />
+            <i>Cost: $</i><i class="upgradeCost">1000</i><br />
+            <i><b>Income: $</b></i
+            ><i class="upgradeIncome"><b>1000</b></i
+            ><i><b>/s</b></i>
+          </button>
+        </div>
+        <div>
+          <img
+            class="upgradeImage"
+            src="images/cocktail.png"
+            alt="Test Image"
+          />
+        </div>
+        <div>
+          <button class="upgradeButton" name="upgrade4">
+            <b class="upgradeName">Upgrade 4</b><br />
+            <i>Cost: $</i><i class="upgradeCost">10000</i><br />
+            <i><b>Income: $</b></i
+            ><i class="upgradeIncome"><b>10000</b></i
+            ><i><b>/s</b></i>
+          </button>
+        </div>
+        <div>
+          <img
+            class="upgradeImage"
+            src="images/cocktail(2).png"
+            alt="Test Image"
+          />
+        </div>
+        <div>
+          <button class="upgradeButton" name="upgrade5">
+            <b class="upgradeName">Upgrade 5</b><br />
+            <i>Cost: $</i><i class="upgradeCost">100000</i><br />
+            <i><b>Income: $</b></i
+            ><i class="upgradeIncome"><b>100000</b></i
+            ><i><b>/s</b></i>
+          </button>
+        </div>
+        <div>
+          <img
+            class="upgradeImage"
+            src="images/cocktails.png"
+            alt="Test Image"
+          />
+        </div>
+        <div>
+          <button class="upgradeButton" name="upgrade6">
+            <b class="upgradeName">Upgrade 6</b><br />
+            <i>Cost: $</i><i class="upgradeCost">1000000</i><br />
+            <i><b>Income: $</b></i
+            ><i class="upgradeIncome"><b>1000000</b></i
+            ><i><b>/s</b></i>
+          </button>
+        </div>
+        <div>
+          <img
+            class="upgradeImage"
+            src="images/wine-glass.png"
+            alt="Test Image"
+          />
+        </div>
+        <div>
+          <button class="upgradeButton" name="upgrade7">
+            <b class="upgradeName">Upgrade 7</b><br />
+            <i>Cost: $</i><i class="upgradeCost">10000000</i><br />
+            <i><b>Income: $</b></i
+            ><i class="upgradeIncome"><b>10000000</b></i
+            ><i><b>/s</b></i>
+          </button>
+        </div>
+        <div>
+          <img
+            class="upgradeImage"
+            src="images/champagne.png"
+            alt="Test Image"
+          />
+        </div>
+        <div>
+          <button class="upgradeButton" name="upgrade8">
+            <b class="upgradeName">Upgrade 8</b><br />
+            <i>Cost: $</i><i class="upgradeCost">100000000</i><br />
+            <i><b>Income: $</b></i
+            ><i class="upgradeIncome"><b>100000000</b></i
+            ><i><b>/s</b></i>
+          </button>
+        </div>
+      </div>
+      <div>
+        <button class="SettingsBtn" name="upgrade8" onclick="SettingsClick()">
+          <b class="Settings">Settings</b><br />
+        </button>
+      </div>
+      <div>
+        <label for="Level" id="CurLevel">Current Level: </label>
+        <br />
+        <progress id="Level" value="30" max="100"></progress>
+        <span id="LevelPercent">Temp</span>
+      </div>
+      <div>
+        <button class="upgradeButton" name="upgrade8" onclick="SaveClick()">
+          <b class="upgradeName">Save Progress</b><br />
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

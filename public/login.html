@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="loginReg.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="logo">
+        <img
+          src="images/logo.jpg"
+          alt="Tap Tap Tavern Logo"
+          class="logo-image"
+        />
+      </div>
+      <div class="form-container">
+        <form action="/login" id="loginForm" method="POST">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter Username"
+            name="username"
+            required
+          />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+          <button type="submit" id="login">Login</button>
+        </form>
+      </div>
+      <div class="register">
+        <a href="http://localhost:3000/register.html">Register an Account</a>
+      </div>
+      <div class="register">
+        <a href="http://localhost:3000/bored.html">Forgot Password?</a>
+      </div>
+    </div>
+  </body>
+</html>

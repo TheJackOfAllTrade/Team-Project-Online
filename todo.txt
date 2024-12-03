@@ -1,0 +1,17 @@
+Jacob M todo:
+
+High priority:
+Sessions - half done
+Information tab (div 1) - Kinda Done
+fix getstats
+fix savestats
+
+Medium priority:
+Notifications - Kinda Done
+Have more settings - Kinda Done
+
+Low priority:
+Make sure no account with the same name can exist 
+Encrypt passwords
+
+

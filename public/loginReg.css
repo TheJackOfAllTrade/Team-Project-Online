@@ -1,0 +1,139 @@
+/* Variables for consistent colors */
+:root {
+  --deep-brown: #4A3021;
+  --medium-brown: #8B4513;
+  --light-brown: #DEB887;
+  --gold: #DAA520;
+  --light-gold: #FFD700;
+  --cream: #FFF8DC;
+}
+
+body,
+html {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cream);
+  font-family: 'Arial', sans-serif;
+  min-height: 800px;
+}
+
+.login-container {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 800px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.logo-image {
+  width: 300px;
+  height: auto;
+}
+
+.form-container {
+  background-color: white;
+  padding: 40px;
+  border: 3px solid var(--gold);
+  border-radius: 12px;
+  font-size: 20px;
+  margin: 2rem 0;
+}
+
+.register {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+a {
+  color: var(--medium-brown);
+  transition: color 0.3s ease;
+  font-size: 24px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--gold);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: var(--gold);
+  color: var(--deep-brown);
+  padding: 20px;
+  margin: 25px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--light-gold);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  color: var(--deep-brown);
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0 30px;
+  display: block;
+  border: 3px solid var(--light-brown);
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: var(--gold);
+  outline: none;
+  box-shadow: 0 0 10px rgba(218, 165, 32, 0.2);
+}
+
+/* Optional decorative elements */
+.form-container::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid var(--light-gold);
+  border-radius: 15px;
+  z-index: -1;
+  opacity: 0.5;
+  pointer-events: none;
+}
